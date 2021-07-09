@@ -13,6 +13,6 @@ JavaScript
 
 ## Setup
 (You need to have node.js installed)
-1. Download the file and open in your prefferd editor
+1. Download the file and open in your preffered editor
 2. Open terminal (if using Windows make sure you have GitBash installed as well)
 3. Type in the command: node MixedMessages.js
