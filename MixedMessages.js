@@ -122,3 +122,9 @@ const drivers = [
     },
 
 ];
+const randArrayIndex = arr => {
+    let randIndex = arr[Math.floor(Math.random()*arr.length)];
+    return randIndex;
+};
+const randGrandPrix = randArrayIndex(grandPrixs);
+const randDriverInfo = randArrayIndex(drivers);
