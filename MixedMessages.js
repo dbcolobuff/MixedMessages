@@ -128,3 +128,9 @@ const randArrayIndex = arr => {
 };
 const randGrandPrix = randArrayIndex(grandPrixs);
 const randDriverInfo = randArrayIndex(drivers);
+
+if (randDriverInfo.nationality === randGrandPrix) {
+    console.log(`${randDriverInfo.name} has won his home grand prix with ${randDriverInfo.team}! Team principal ${randDriverInfo.principal} must be so proud.`)
+} else {
+    console.log(`${randDriverInfo.nationality} driver ${randDriverInfo.name} has won the ${randGrandPrix} grand prix with ${randDriverInfo.team}! Team principal ${randDriverInfo.principal} must be so proud.`)
+};
